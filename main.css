@@ -1,0 +1,49 @@
+body{background-color: rgb(221, 182, 91);padding-bottom: 30px;min-height: 100vh;}
+html{scroll-behavior: smooth;}
+.container{
+    display:flex;
+    justify-content:flex-start;
+    width: 100%;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.fejlec{
+    min-height: 120px;
+    width: 100%;
+    background-color: rgba(210, 39, 70, 0.829);
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+    color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.weeeee{
+    margin: 40px;
+    font-size: 20px;
+    line-height: 1.7;
+    border: solid 10px rgb(156, 119, 31);
+    background-color: rgb(248, 213, 130);
+    border-radius: 30px;
+    padding: 20px;
+}
+mark{
+    background-color: rgb(248, 213, 130);
+    color: rgb(24, 161, 225);;
+}
+ 
+.menu:link, .menu:visited {color: lightcyan;  transition: color 0.6s ease;}
+.menu:hover, .menu:active, .menu:focus{color: rgb(145, 212, 235)}
+.e{
+    display: flex; align-items: center;gap:10px;
+}
+.fb:link, .fb:visited{color:rgb(8, 102, 255); transition: color 0.6s ease;}
+.fb:hover, .fb:active, .fb:focus{color:rgb(68, 161, 255)}
+.asd{ display: flex; align-items: center;}
+
+@media not all and (min-width: 768px) {
+    .asd{flex-direction: column;justify-content: center;text-align: center;}
+    .fejlec{flex-direction: column;gap:10px}
+    .e{flex-direction: column;}
+}
